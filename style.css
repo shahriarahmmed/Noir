@@ -108,7 +108,9 @@ h2 {
     
 }
 
-
+.card-details {
+    background-color: #F2DDBC !important;
+}
 
 .section-gap {
     height: 50px;
@@ -150,6 +152,17 @@ h2 {
     display: flex;
     align-items: right;
 }
+
+.b-col-1 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.b-col-2 a {
+    color: #000;
+    text-decoration: none;
+}
+
 .b-col-2 p {
     margin: 10px;
     margin-right: 20px;
