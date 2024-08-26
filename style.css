@@ -63,19 +63,26 @@ h1 {
 
 .hero {
     background-image: url(./Assets/Hero-photo.png);
-    background-size: cover;
+    background-size: 1000px;
     height: 80vh;
-    background-position-x: 250px;
-    z-index: -1;
+    background-position: center;
+    background-position-x: 1000px;
+    background-repeat: no-repeat;
+    
 }
 
 #hero {
-    background-image: url(./Assets/fashionable-man-winter-knitted-clothes.png)
+    background-image: url(./Assets/fashionable-man-winter-knitted-clothes.png);
+    background-size: 1000px;
+    height: 80vh;
+    background-position: center;
+    background-position-x: 1000px;
+    background-repeat: no-repeat;
 }
 
 h2 {
     margin-left: 300px;
-    padding-top: 30px;
+    /* padding-top: 30px; */
     /* text-align: center; */
     font-size: 50px;
 }
