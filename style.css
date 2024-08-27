@@ -46,12 +46,13 @@ h1 {
     display: inline-block;
 }
 
-.menu-2 a {
+/* .menu-2 a {
     margin-right: 30px;
     display: inline-block;
     text-decoration: none;
     color: #000;
-}
+    cursor: pointer;
+} */
 
 .line {
     border-bottom: 1px solid #000;
@@ -89,42 +90,64 @@ h2 {
 
 .card {
     margin: 40px;
-    margin-top: 80px;
+    margin-top: 100px;
     display: flex;
     align-items: baseline;
+    
 }
 
 .card-1 {
     position: relative;
     text-align: center;
+    filter: drop-shadow(0px 4px 4px #000000);
 }
 .card-2 {
     position: relative;
     text-align: center;
     margin-left: 30px;
+    filter: drop-shadow(0px 4px 4px #000000);
 }
 
 .card-1 img {
     border-radius: 10px;
 }
 
-.card-1 p {
+.card-1 button {
     padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
     position: absolute;
-    top: 70%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #D9D9D9 ;
+    border: 1px solid black;
     border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
 }
-.card-2 p {
+
+.card-1 button:hover {
+    background-color: #f1ecec ;
+}
+
+.card-2 button {
     padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
     position: absolute;
-    top: 70%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #D9D9D9 ;
+    border: none;
     border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.card-2 button:hover {
+    background-color: #f1ecec ;
 }
 
 .card-2 img {
@@ -135,6 +158,10 @@ h2 {
 
 .card-details {
     background-color: #F2DDBC !important;
+}
+
+.card-details:hover {
+    background-color: #f0e3ce !important;
 }
 
 .section-gap {
