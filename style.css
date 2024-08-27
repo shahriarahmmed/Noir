@@ -46,13 +46,13 @@ h1 {
     display: inline-block;
 }
 
-/* .menu-2 a {
+.menu-2 a {
     margin-right: 30px;
     display: inline-block;
     text-decoration: none;
     color: #000;
     cursor: pointer;
-} */
+}
 
 .line {
     border-bottom: 1px solid #000;
